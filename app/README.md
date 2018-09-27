@@ -1,6 +1,6 @@
-# vue-study
+# cms_project_4
 
-> vue  study
+> A Vue.js project
 
 ## Build Setup
 

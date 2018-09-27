@@ -1,11 +1,11 @@
 <template>
-    <li>
+    <ul>
         <slot></slot>
-    </li>
+    </ul>
 </template>
 <script>
     export default {
-        name:'my-li',
+        name:'my-ul',
         data(){
             return {
 
@@ -14,10 +14,10 @@
     }
 </script>
 <style scoped>
- li{
-    list-style: none;
-    float: left;
-    width: 33.333%;
-    text-align: center;
-}
+ul {
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+
+} 
 </style>

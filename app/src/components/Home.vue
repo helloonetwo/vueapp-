@@ -47,12 +47,6 @@ export default {
     }
   },
   created () {
-    // 测试自己写的插件
-    // this.$log = 'abc';
-    // this.$log();
-    // this.$log();
-    // this.$log();
-
     this.$axios.get('getlunbo')
     .then(res=>{
       this.imgs = res.data.message;
